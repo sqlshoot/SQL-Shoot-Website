@@ -1,9 +1,41 @@
-const listMenuItems = [
-    "Overview",
-    "Databases"
-]
+const introductionListMenuItems = [
+    "Introduction"
+];
 
-export default function SidebarNav({ activeItemName }) {
+const usageListMenuItems = [
+    "Windows",
+    "Linux",
+    "Docker",
+    "NuGet"
+];
+
+const commandsListMenuItems = [
+    "Overview",
+    "Run",
+    "Nuke",
+    "Revert",
+    "Recover"
+];
+
+const configurationListMenuItems = [
+    "General",
+    "Files",
+    "Command line arguments",
+    "All Options"
+];
+
+const databaseSupportListMenuItems = [
+    "SQL Server",
+    "SQLite"
+];
+
+const communityAndTroubleshootingListMenuItems = [
+    "Troubleshooting",
+    "Contributing"
+];
+
+
+function createListMenu(listMenuItems, activeItemName) {
     const listMenu = [];
 
     for (const [index, item] of listMenuItems.entries()) {
@@ -16,13 +48,47 @@ export default function SidebarNav({ activeItemName }) {
         }
     }
 
+    return listMenu;
+}
+
+export default function SidebarNav({ activeItemName }) {
   return (
     <aside className="menu">
         <p className="menu-label">
-            General
+            Introduction
         </p>
         <ul className="menu-list">
-            {listMenu}
+            {createListMenu(introductionListMenuItems, activeItemName)}
+        </ul>
+        <p className="menu-label">
+            Usage
+        </p>
+        <ul className="menu-list">
+        {createListMenu(usageListMenuItems, activeItemName)}
+        </ul>
+        <p className="menu-label">
+            Commands
+        </p>
+        <ul className="menu-list">
+        {createListMenu(commandsListMenuItems, activeItemName)}
+        </ul>
+        <p className="menu-label">
+            Configuration
+        </p>
+        <ul className="menu-list">
+        {createListMenu(configurationListMenuItems, activeItemName)}
+        </ul>
+        <p className="menu-label">
+            Database support
+        </p>
+        <ul className="menu-list">
+        {createListMenu(databaseSupportListMenuItems, activeItemName)}
+        </ul>
+        <p className="menu-label">
+            Community & Troubleshooting
+        </p>
+        <ul className="menu-list">
+        {createListMenu(communityAndTroubleshootingListMenuItems, activeItemName)}
         </ul>
     </aside>
   )
