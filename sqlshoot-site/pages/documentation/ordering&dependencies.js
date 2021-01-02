@@ -16,6 +16,8 @@ export default function OrderingAndDependencies() {
         SQL Shoot looks for scripts in filesystem locations. These locations are defined by the <code>scriptPaths</code> configuration option.
         <code>scriptPaths</code> can be either a directory, or a direct file path. See the <code>scriptPaths</code> page for more details.
         <br />
+        You can preview the deployment order with the Overview command.
+        <br />
         <h2 className="title">Alphabetical ordering</h2>
         <code>scriptPaths</code> that have multiple files with no sub-directories are executed in alphabetical order. So given the following files in your filesystem:
         <br />

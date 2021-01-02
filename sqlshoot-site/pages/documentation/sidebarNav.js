@@ -2,7 +2,8 @@ const introductionListMenuItems = [
     "Introduction",
     "Quick Start",
     "Scripts",
-    "Ordering & Dependencies"
+    "Ordering & Dependencies",
+    "Change History"
 ];
 
 const usageListMenuItems = [
