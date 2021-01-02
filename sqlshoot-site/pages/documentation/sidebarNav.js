@@ -44,7 +44,7 @@ function createListMenu(listMenuItems, activeItemName) {
     const listMenu = [];
 
     for (const [index, item] of listMenuItems.entries()) {
-        const link = "documentation/" + item.replace(" ", "").toLowerCase();
+        const link = "/documentation/" + item.replace(" ", "").toLowerCase();
 
         if (item === activeItemName) {
             listMenu.push(<li key={index}><a className="is-active" href={link}>{item}</a></li>);
