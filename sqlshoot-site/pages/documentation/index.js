@@ -7,7 +7,7 @@ export default function Home() {
     <section>
     <div className="columns">
       <div className="column is-one-quarter">
-      <SidebarNav activeItemName="Overview"/>
+      <SidebarNav activeItemName=""/>
       </div>
       <div className="column">
         Hello

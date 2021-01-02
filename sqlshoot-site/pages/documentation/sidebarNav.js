@@ -1,12 +1,16 @@
 const introductionListMenuItems = [
-    "Introduction"
+    "Introduction",
+    "Quick Start",
+    "Scripts",
+    "Ordering & Dependencies"
 ];
 
 const usageListMenuItems = [
     "Windows",
     "Linux",
     "Docker",
-    "NuGet"
+    "NuGet",
+    "Command line",
 ];
 
 const commandsListMenuItems = [
@@ -39,7 +43,7 @@ function createListMenu(listMenuItems, activeItemName) {
     const listMenu = [];
 
     for (const [index, item] of listMenuItems.entries()) {
-        const link = "documentation/" + item.toLowerCase();
+        const link = "documentation/" + item.replace(" ", "").toLowerCase();
 
         if (item === activeItemName) {
             listMenu.push(<li key={index}><a className="is-active" href={link}>{item}</a></li>);
