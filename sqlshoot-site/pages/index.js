@@ -12,9 +12,9 @@ export default function Home() {
           <h2 className="subtitle">
             Change control for the database
           </h2>
-          <div class="buttons">
-            <button class="button is-primary">Get Started</button>
-            <button class="button is-link">Documentation</button>
+          <div className="buttons">
+            <button className="button is-primary">Get Started</button>
+            <button className="button is-link">Documentation</button>
           </div>
         </div>
       </div>

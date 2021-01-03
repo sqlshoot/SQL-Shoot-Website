@@ -11,40 +11,40 @@ export default function Layout({children}) {
       </Head>
 
       <body>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="/">
+        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <div className="container">
+          <div className="navbar-brand">
+            <a className="navbar-item" href="/">
               <img src="/sqlshoot-rectangle.png" width="112" height="28" />
             </a>
 
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
             </a>
           </div>
 
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item" href="/">
+          <div id="navbarBasicExample" className="navbar-menu">
+            <div className="navbar-start">
+              <a className="navbar-item" href="/">
                 Home
               </a>
 
-              <a class="navbar-item" href="/documentation">
+              <a className="navbar-item" href="/documentation">
                 Documentation
               </a>
 
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link">
                   More
                 </a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item" href="about">
+                <div className="navbar-dropdown">
+                  <a className="navbar-item" href="about">
                     About
                   </a>
-                  <a class="navbar-item" href="contact">
+                  <a className="navbar-item" href="contact">
                     Contact
                   </a>
                 </div>
@@ -54,15 +54,15 @@ export default function Layout({children}) {
           </div>
         </nav>
         
-        <section class="section">
-          <div class="container">
+        <section className="section">
+          <div className="container">
           {children}
           </div>
         </section>
       </body>
 
-      <footer class="footer">
-        <div class="content has-text-centered">
+      <footer className="footer">
+        <div className="content has-text-centered">
           <p>
             Footer
           </p>

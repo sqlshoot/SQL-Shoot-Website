@@ -36,7 +36,7 @@ export default function OrderingAndDependencies() {
         </ul>
         <h2 className="title">Sub Directories</h2>
         Sub-directories are searched first, in alphabetical order. So given this filesystem:
-        <div class="content">
+        <div className="content">
             <ul>
                 <li>
                 <li><i>Release-1</i></li>
