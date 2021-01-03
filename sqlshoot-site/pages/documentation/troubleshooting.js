@@ -9,7 +9,8 @@ export default function Troubleshooting() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="Troubleshooting"/>
       </div>
-      <div className="column">
+      <div className="column content">
+      <h1>Troubleshooting</h1>
       If you encounter a problem, or suspect a bug with SQL Shoot, you can seek help with the following:
       <br />
       <ul>

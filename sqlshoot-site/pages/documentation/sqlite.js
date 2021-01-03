@@ -9,7 +9,8 @@ export default function Sqlite() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="SQLite"/>
       </div>
-      <div className="column">
+      <div className="column content">
+      <h1>SQLite</h1>
       Example connection string:
       <br />
       Driver:

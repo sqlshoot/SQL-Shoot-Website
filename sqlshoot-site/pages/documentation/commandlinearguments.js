@@ -8,9 +8,10 @@ export default function AllOptions() {
     <section>
     <div className="columns">
       <div className="column is-one-quarter">
-      <SidebarNav activeItemName="Files"/>
+      <SidebarNav activeItemName="Command line arguments"/>
       </div>
-      <div className="column">
+      <div className="column content">
+        <h1>Command line arguments</h1>
         This page lists the command line specific options for SQL Shoot. See All Options for details of the main options.
         <br />
         <ConfigurationOption

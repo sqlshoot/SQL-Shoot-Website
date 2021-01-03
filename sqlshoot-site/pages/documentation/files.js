@@ -9,7 +9,8 @@ export default function Files() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="Files"/>
       </div>
-      <div className="column">
+      <div className="column content">
+        <h1>Files</h1>
         Configuration files are in the YAML format. SQL Shoot expects the file to be called <code>config.yaml</code>.
         <br />
         <code>config.yaml</code> must be in the working directory of the command line call in order to be picked up. The example project you can download in Quickstart shows how that works.

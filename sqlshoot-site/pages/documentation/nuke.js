@@ -9,7 +9,8 @@ export default function Nuke() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="Nuke"/>
       </div>
-      <div className="column">
+      <div className="column content">
+        <h1>Nuke</h1>
         The Nuke command deletes all objects under the schema specified in `primarySchema`. This is a destructive process and should only be used when you know it's safe to do so.
         Command Line Example:
         <br />

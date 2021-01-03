@@ -9,7 +9,8 @@ export default function Recover() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="Recover"/>
       </div>
-      <div className="column">
+      <div className="column content">
+        <h1>Recover</h1>
         The Recover command attempts to put your deployment into a valid state after a failed Run, or errors in your project.
         <br />
         Recover will:

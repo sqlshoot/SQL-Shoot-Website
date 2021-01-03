@@ -9,7 +9,8 @@ export default function SqlServer() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="SQL Server"/>
       </div>
-      <div className="column">
+      <div className="column content">
+      <h1>SQL Server</h1>
       Example connection string:
       <br />
       Driver:

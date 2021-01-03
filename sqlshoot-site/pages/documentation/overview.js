@@ -9,7 +9,8 @@ export default function Overview() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="Overview"/>
       </div>
-      <div className="column">
+      <div className="column content">
+        <h1>Overview</h1>
         The Overview command tells you information about the state of your database, and the scripts on your filesystem.
         <br />
         It tells you:

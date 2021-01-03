@@ -8,9 +8,10 @@ export default function AllOptions() {
     <section>
     <div className="columns">
       <div className="column is-one-quarter">
-      <SidebarNav activeItemName="Files"/>
+      <SidebarNav activeItemName="All Options"/>
       </div>
-      <div className="column">
+      <div className="column content">
+        <h1>All Options</h1>
         This page lists all configuration options for SQL Shoot.
         <br />
         <ConfigurationOption
