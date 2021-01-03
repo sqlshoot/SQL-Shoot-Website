@@ -9,7 +9,8 @@ export default function Introduction() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="Introduction"/>
       </div>
-      <div className="column">
+      <div className="column content">
+      <h1>Introduction</h1>
         SQL Shoot is a change control tool for the database. With it you can:
         <ul>
           <li>Write changes as SQL script files</li>
@@ -18,10 +19,18 @@ export default function Introduction() {
         </ul>
         It is accessed through a command line interface, or a NuGet package.
         <br />
+        <br />
         SQL Shoot works mainly with script files in your filesystem. Scripts are executed in a strict order, which means deployments are reliable and consistent.
-        Dependencies between scripts can be easily enforced, and it has support for rollback scripts too.
-        Because SQL shoot works with your filesystem, you can easily version control your database changes with a tool like Git or Subversion.
+        Dependencies between scripts can be enforced, and it has support for rollback scripts too.
+        <br />
+        Because SQL shoot works with your filesystem, you can version control your database changes with a tool like Git or Subversion.
+        <br />
         Consistent script deployment order means you can use SQL Shoot to enable an 'Evolutionary Database Design' (migrations) process for your database.
+        <br />
+        <br />
+        <a href="quickstart">
+          <button class="button is-link">Next: Quick Start</button>
+        </a>
       </div>
     </div>
     </section>

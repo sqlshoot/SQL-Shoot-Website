@@ -9,17 +9,19 @@ export default function OrderingAndDependencies() {
       <div className="column is-one-quarter">
       <SidebarNav activeItemName="Ordering & Dependencies"/>
       </div>
-      <div className="column">
+      <div className="column content">
+        <h1>Ordering & Dependencies</h1>
         SQL Shoot runs scripts in an orderly manner, according to a few rules. The general idea is that scripts are executed in the order they appear in your filesystem view.
         <br />
         <h2 className="title">Where does SQL Shoot look for scripts?</h2>
         SQL Shoot looks for scripts in filesystem locations. These locations are defined by the <code>scriptPaths</code> configuration option.
         <code>scriptPaths</code> can be either a directory, or a direct file path. See the <code>scriptPaths</code> page for more details.
         <br />
+        <br />
         You can preview the deployment order with the Overview command.
         <br />
         <h2 className="title">Alphabetical ordering</h2>
-        <code>scriptPaths</code> that have multiple files with no sub-directories are executed in alphabetical order. So given the following files in your filesystem:
+        <code>scriptPaths</code> that have multiple files with no sub-directories are executed in alphabetical order. So, given the following files in your filesystem:
         <br />
         <ul>
             <li>createTable.sql</li>
@@ -29,11 +31,11 @@ export default function OrderingAndDependencies() {
         <br />
         Scripts will be executed in this order:
         <br />
-        <ul>
+        <ol>
             <li>createTable.sql</li>
             <li>createView.onChange.sql</li>
             <li>select.sql</li>
-        </ul>
+        </ol>
         <h2 className="title">Sub Directories</h2>
         Sub-directories are searched first, in alphabetical order. So given this filesystem:
         <div className="content">
@@ -52,11 +54,11 @@ export default function OrderingAndDependencies() {
             </ul>
         </div>
         Scripts will be executed in this order:
-        <ul>
+        <ol>
             <li>createTable.sql</li>
             <li>select.sql</li>
             <li>createView.onChange.sql</li>
-        </ul>
+        </ol>
         <h2 className="title">Dependencies between scripts</h2>
         When scripts are dependent on each other, you need to arrange your files in such a way to ensure scripts are deployed in the correct order.
         <br />
@@ -66,7 +68,6 @@ export default function OrderingAndDependencies() {
             <li>002_createView.onChange.sql</li>
             <li>003_select.sql</li>
         </ul>
-        <br />
         This can work in sub folders too:
         <ul>
             <li>
@@ -103,8 +104,14 @@ export default function OrderingAndDependencies() {
         <br />
         You can define multiple <code>scriptPaths</code> too, which are searched in the order specified.
         <br />
-        If you want total control over execution order, you can simply specify the direct path to each script in your <code>scriptPaths</code>,
-        bypassing SQL Shoot's built-in script ordering process altogether. 
+        <br />
+        If you want total control over execution order, you can specify the direct path to each script in your <code>scriptPaths</code>,
+        bypassing SQL Shoot's built-in ordering process altogether.
+        <br />
+        <br />
+        <a href="changehistory">
+          <button class="button is-link">Next: Change History</button>
+        </a>
       </div>
     </div>
     </section>

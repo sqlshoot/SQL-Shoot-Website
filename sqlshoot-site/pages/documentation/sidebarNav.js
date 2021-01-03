@@ -3,7 +3,8 @@ const introductionListMenuItems = [
     "Quick Start",
     "Scripts",
     "Ordering & Dependencies",
-    "Change History"
+    "Change History",
+    "Next Steps"
 ];
 
 const usageListMenuItems = [
@@ -36,7 +37,8 @@ const databaseSupportListMenuItems = [
 
 const communityAndTroubleshootingListMenuItems = [
     "Troubleshooting",
-    "Contributing"
+    "Contributing",
+    "Release Notes"
 ];
 
 
