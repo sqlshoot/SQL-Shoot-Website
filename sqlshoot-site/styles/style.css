@@ -8,3 +8,32 @@
   font-size: 40px;
   padding: 10px;
 }
+
+.client-img {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.main-page-logo {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+/* Use !important hack to override Bulma colours */
+
+.is-primary {
+  background-color: #782EA0 !important;
+}
+
+.is-active {
+  background-color: #782EA0 !important;
+}
+
+.is-link {
+  background-color: #782EA0 !important;
+}

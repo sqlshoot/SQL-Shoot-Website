@@ -5,21 +5,31 @@ export default function Home() {
     <Layout>
     <section className="hero">
       <div className="hero-body">
-        <div className="container">
-          <h1 className="title">
-            SQL Shoot
-          </h1>
-          <h2 className="subtitle">
+        <div className="container text-align-center">
+          <figure className="image main-page-logo">
+                <img src="sqlshoot-square.png" />
+          </figure>
+          <h3 className="title is-3">
             Change control for the database
-          </h2>
-          <div className="buttons">
-          <a href="/documentation/introduction">
-            <button class="button is-primary">Get Started</button>
-          </a>
-          <a href="/documentation/introduction">
-            <button class="button is-secondary">Documentation</button>
-          </a>
+          </h3>
+          <br />
           </div>
+          <div className="container">
+              <div className="columns">
+              <div className="column" />
+              <div className="column">
+                <div className="buttons">
+                <a className="button is-large is-fullwidth is-primary" href="/documentation/introduction">
+                    Get Started
+                </a>
+                <a className="button is-large is-fullwidth" href="/documentation/introduction">
+                    Documentation
+                </a>
+                </div>
+              </div>
+              <div className="column" />
+          </div>
+        
         </div>
       </div>
     </section>
@@ -49,6 +59,7 @@ export default function Home() {
     </section>
     <hr />
     <section>
+    <h3 className="title is-3 text-align-center">Features</h3>
     <div className="box has-text-centered">
       <div className="columns">
         <div className="column">
@@ -62,7 +73,7 @@ export default function Home() {
           <strong>Deploy scripts in the order your need</strong>
           <div className="lnr lnr-small lnr-sort-alpha-asc"/>
           <br />
-          Orchestrate deployments to deal with dependencies between scripts
+          Orchestrate deployments, even when scripts have tricky dependencies
         </div>
         <div className="column">
           <strong>Command line interface</strong>
@@ -100,28 +111,61 @@ export default function Home() {
     </div>
     <hr />
     <section>
+    <h3 className="title is-3 text-align-center">Platforms</h3>
       <div className="tile is-ancestor">
         <div className="tile is-parent">
-          <div className="tile is-child box">
-              Windows
+        <div className="tile is-child box has-text-centered">
+              <h4 className="title is-4">Windows</h4>
+
+              <figure className="image is-128x128 client-img">
+                <img src="windows.png" />
+              </figure>
+
+              <a href="/documentation/windows">
+                <button class="button is-link">Go to Windows</button>
+              </a>
           </div>
         </div>
 
         <div className="tile is-parent">
-          <div className="tile is-child box">
-              Linux
+        <div className="tile is-child box has-text-centered">
+              <h4 className="title is-4">Linux</h4>
+              
+              <figure className="image is-128x128 client-img">
+                <img src="linux.png" />
+              </figure>
+
+              <a href="/documentation/linux">
+                <button class="button is-link">Go to Linux</button>
+              </a>
           </div>
         </div>
 
         <div className="tile is-parent">
-          <div className="tile is-child box">
-            NuGet
+        <div className="tile is-child box has-text-centered">
+              <h4 className="title is-4">Docker</h4>
+
+              <figure className="image is-128x128 client-img">
+                <img src="docker.png" />
+              </figure>
+
+              <a href="/documentation/docker">
+                <button class="button is-link">Go to Docker</button>
+              </a>
           </div>
         </div>
 
         <div className="tile is-parent">
-          <div className="tile is-child box">
-            GitHub
+        <div className="tile is-child box has-text-centered">
+              <h4 className="title is-4">GitHub</h4>
+
+              <figure className="image is-128x128 client-img">
+                <img src="github.png" />
+              </figure>
+
+              <a href="/documentation/github">
+                <button class="button is-link">Source code in GitHub</button>
+              </a>
           </div>
         </div>
       </div>
