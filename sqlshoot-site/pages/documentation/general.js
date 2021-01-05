@@ -11,9 +11,11 @@ export default function General() {
       </div>
       <div className="column content">
         <h1>General</h1>
-        SQL Shoot can be configured in two ways: Command line arguments, and configuration files.
+        SQL Shoot can be configured in two ways: Command line arguments, and YAML configuration files.
+        <br />
         <br />
         Command line arguments take precedence over those specified in configuration files.
+        <br />
         <br />
         See the relevant pages for details.
       </div>

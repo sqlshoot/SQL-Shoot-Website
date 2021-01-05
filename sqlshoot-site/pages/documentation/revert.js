@@ -16,10 +16,25 @@ export default function Revert() {
         Revert will execute the relevant revert script for the latest applied Script (not On Change Scripts or other Revert Scripts). It only reverts one script at a time. 
         Command Line Example:
         <br />
-        <code>sqlshoot revert</code>
-        <br />
-        Output:
-        <br />
+        <pre>
+          <code>
+          > sqlshoot overview<br />
+          SQL Shoot version: 0.0.1<br />
+          ┌────────────────────┬───────────────┬─────────┬────────────┬─────────────────────┐<br />
+          │ Name               │ Type          │ State   │ Revertable │ timestamp           │<br />
+          ├────────────────────┼───────────────┼─────────┼────────────┼─────────────────────┤<br />
+          │ createTable        │ Script        │ Applied │ Yes        │ 12/12/2021 19:10:01 │<br />
+          │ createView         │ Script        │ Applied │ Yes        │ 12/12/2021 19:10:01 │<br />
+          │ insertData         │ Script        │ Applied │ No         │ 12/12/2021 19:10:01 │<br />
+          │ createView.revert  │ Revert Script │ Pending │ n/a        │                     │<br />
+          │ createTable.revert │ Revert Script │ Pending │ n/a        │                     │<br />
+          └────────────────────┴───────────────┴─────────┴────────────┴─────────────────────┘<br />
+          <br />
+          > sqlshoot revert<br />
+          SQL Shoot version: 0.0.1<br />
+          Running script createView.revert<br />
+          </code>
+        </pre>
       </div>
     </div>
     </section>
