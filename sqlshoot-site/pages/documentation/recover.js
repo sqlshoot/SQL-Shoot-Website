@@ -18,11 +18,14 @@ export default function Recover() {
             <li>Delete 'Failed' entries in the change history table</li>
             <li>Update checksums in the change history table to match your scripts on disk</li>
         </ul>
-        <br />
-        <code>sqlshoot recover</code>
-        <br />
-        Output:
-        <br />
+        <h3>Command Line Example</h3>
+        <pre>
+          <code>
+          > sqlshoot recover<br />
+          SQL Shoot version: 0.0.1<br />
+          Amending checksum for change createTable<br />
+          </code>
+        </pre>
       </div>
     </div>
     </section>

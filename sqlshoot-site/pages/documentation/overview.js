@@ -20,13 +20,20 @@ export default function Overview() {
             <li>The order pending scripts will be applied</li>
             <li>Any errors with your files or deployment</li>
         </ul>
-        <br />
-        Command Line Example:
-        <br />
-        <code>sqlshoot overview</code>
-        <br />
-        Output:
-        <br />
+        <h3>Command Line Example</h3>
+        <pre>
+          <code>
+          > sqlshoot overview<br />
+          SQL Shoot version: 0.0.1<br />
+          ┌─────────────┬────────┬─────────┬────────────┬─────────────────────┐<br />
+          │ Name        │ Type   │ State   │ Revertable │ timestamp           │<br />
+          ├─────────────┼────────┼─────────┼────────────┼─────────────────────┤<br />
+          │ createTable │ Script │ Applied │ No         │ 12/12/2021 16:00:55 │<br />
+          │ createView  │ Script │ Pending │ n/a        │                     │<br />
+          │ insertData  │ Script │ Pending │ n/a        │                     │<br />
+          └─────────────┴────────┴─────────┴────────────┴─────────────────────┘<br />
+          </code>
+        </pre>
       </div>
     </div>
     </section>
