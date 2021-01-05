@@ -15,14 +15,14 @@ export default function Scripts() {
 
 
         <h2>Scripts</h2>
-        The most basic type of change is a SQL script file, termed a 'Script'. Scripts are executed against the database with the Run command.
+        The most basic type of change is a SQL script file, termed a 'Script'. Scripts are executed against the database with the <a href="/documentation/run">Run</a> command.
         <br />
         <br />
         <strong>Rules:</strong>
         <ul>
             <li>Must have the <code>.sql</code> file extension.</li>
             <li>Must have unique filenames in order to be deployed.</li>
-            <li>Scripts are executed in alphabetical order. You can read more about deployment ordering and dependencies on this page.</li>
+            <li>Scripts are executed in alphabetical order. See <a href="/documentation/ordering&dependencies">Ordering & Dependencies</a> for details.</li>
         </ul>
         <h3>Example</h3>
         <strong>createTable.sql</strong><br/>
@@ -35,7 +35,7 @@ export default function Scripts() {
         </code>
         </pre>
         <h2>Revert Scripts</h2>
-        Revert scripts are plain SQL scripts, used to rollback changes introduced by a Script. Revert Scripts are executed against the database with the Revert command.
+        Revert scripts are plain SQL scripts, used to rollback changes introduced by a Script. Revert Scripts are executed against the database with the <a href="/documentation/revert">Revert</a> command.
         <br />
         <br />
         <strong>Rules:</strong>
@@ -43,7 +43,7 @@ export default function Scripts() {
             <li>Must have the <code>.revert.sql</code> file extension.</li>
             <li>Must have unique filenames in order to be deployed.</li>
             <li>The name of a Revert Script must match a Script change in order to be deployed.</li>
-            <li>Revert Scripts are executed in reverse order - to ensure the latest change is reverted first. You can read more about deployment ordering and dependencies on this page.</li>
+            <li>Revert Scripts are executed in reverse order - to ensure the latest change is reverted first. See <a href="/documentation/ordering&dependencies">Ordering & Dependencies</a> for details.</li>
         </ul>
         <h3>Example</h3>
         <strong>createTable.revert.sql</strong><br/>
@@ -54,14 +54,14 @@ export default function Scripts() {
         </pre>
         <h2>On Change Scripts</h2>
         On Change scripts are similar to Scripts in that they're plain SQL files. However, whereas Scripts can only be executed once, On Change scripts are
-        executed when the file contents have changed. On Change Scripts are executed against the database with the Run command.
+        executed when the file contents have changed. On Change Scripts are executed against the database with the <a href="/documentation/run">Run</a> command.
         <br />
         <br />
         <strong>Rules:</strong>
         <ul>
             <li>Must have the <code>.onChange.sql</code> file extension.</li>
             <li>Must have unique filenames in order to be deployed.</li>
-            <li>On Change Scripts are executed in alphabetical order, and can be interleaved with other script types. You can read more about deployment ordering and dependencies on this page.</li>
+            <li>On Change Scripts are executed in alphabetical order, and can be interleaved with other script types. See <a href="/documentation/ordering&dependencies">Ordering & Dependencies</a> for details.</li>
         </ul>
         <h3>Example</h3>
         <strong>createView.onChange.sql</strong><br/>

@@ -3,7 +3,7 @@ export default function ConfigurationOption({ name, description, exampleValue, c
   <div class="card" style={ { margin: "10px" } }>
     <div class="card-content">
     <h4 className="title is-4">
-      <a id={name}></a>
+      <a id={name.replace(/\s/g, '-')}></a>
       {name}
     </h4>
       <div class="content">

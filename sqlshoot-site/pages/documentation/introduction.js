@@ -17,13 +17,17 @@ export default function Introduction() {
           <li>Run scripts in an orderly manner</li>
           <li>See an audit trail of your changes to the database</li>
         </ul>
-        It is accessed through a command line interface, or a NuGet package.
+        It is accessed through a command line interface, or a .NET 5 NuGet package.
         <br />
         <br />
-        SQL Shoot works mainly with script files in your filesystem. Scripts are executed in a strict order, which means deployments are reliable and consistent.
+        SQL Shoot works mainly with SQL script files in your filesystem. Scripts are executed in a strict order, which means deployments are reliable and consistent.
+        <br />
+        <br />
         Dependencies between scripts can be enforced, and it has support for rollback scripts too.
         <br />
+        <br />
         Because SQL shoot works with your filesystem, you can version control your database changes with a tool like Git or Subversion.
+        <br />
         <br />
         Consistent script deployment order means you can use SQL Shoot to enable an 'Evolutionary Database Design' (migrations) process for your database.
         <br />

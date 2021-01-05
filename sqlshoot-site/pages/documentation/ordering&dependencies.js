@@ -14,14 +14,14 @@ export default function OrderingAndDependencies() {
         SQL Shoot runs scripts in an orderly manner, according to a few rules. The general idea is that scripts are executed in the order they appear in your filesystem view.
         <br />
         <h2 className="title">Where does SQL Shoot look for scripts?</h2>
-        SQL Shoot looks for scripts in filesystem locations. These locations are defined by the <code>scriptPaths</code> configuration option.
-        <code>scriptPaths</code> can be either a directory, or a direct file path. See the <code>scriptPaths</code> page for more details.
+        SQL Shoot looks for scripts in filesystem locations. These locations are defined by the <a href="/documentation/alloptions#Script-Paths">Script Paths</a> configuration option.
+        <a href="/documentation/alloptions#Script-Paths">Script Paths</a> can be either a directory, or a direct file path. See the <a href="/documentation/alloptions#Script-Paths">Script Paths</a> page for more details.
         <br />
         <br />
-        You can preview the deployment order with the Overview command.
+        You can preview the deployment order with the <a href="/documentation/overview">Overview</a> command.
         <br />
         <h2 className="title">Alphabetical ordering</h2>
-        <code>scriptPaths</code> that have multiple files with no sub-directories are executed in alphabetical order. So, given the following files in your filesystem:
+        Script Paths that have multiple files with no sub-directories are executed in alphabetical order. So, given the following files in your filesystem:
         <br />
         <ul>
             <li>createTable.sql</li>
@@ -102,10 +102,10 @@ export default function OrderingAndDependencies() {
         </ul>
         The scripts will be deployed in the order you see here - which generally reflects what you'll see in your filesystem view.
         <br />
-        You can define multiple <code>scriptPaths</code> too, which are searched in the order specified.
+        You can define multiple Script Paths too, which are searched in the order specified.
         <br />
         <br />
-        If you want total control over execution order, you can specify the direct path to each script in your <code>scriptPaths</code>,
+        If you want total control over execution order, you can specify the direct path to each script in your Script Paths,
         bypassing SQL Shoot's built-in ordering process altogether.
         <br />
         <br />

@@ -14,13 +14,13 @@ export default function NextSteps() {
         That's it for the introduction! Now to begin using SQL Shoot in your development process.
         <br/>
         <br/>
-        You should read the documentation for the various commands, and familiarize yourself with the configuration options.
+        You should read the documentation for the various commands, and familiarize yourself with the <a href="/documentation/alloptions">configuration options</a>.
         <br />
         <br />
-        Using the instructions in Quick Start, perhaps you can try deploying a few scripts to your development environment.
+        Using the instructions in <a href="/documentation/quickstart">Quick Start</a>, perhaps you can try deploying a few scripts to your development environment.
         <br />
         <br />
-        Finally, you can check out the community page. SQL Shoot is open source, and is always on the look out for contributors.
+        Finally, you can check out the <a href="/documentation/contributing">Contributing page</a>. SQL Shoot is open source, and is always on the look out for contributors.
       </div>
     </div>
     </section>
