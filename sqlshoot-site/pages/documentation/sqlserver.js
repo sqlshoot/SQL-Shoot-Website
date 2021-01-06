@@ -16,7 +16,6 @@ export default function SqlServer() {
         <li>2019</li>
         <li>2017</li>
         <li>2016</li>
-        <li>2014</li>
       </ul>
       <h4>Database connections</h4>
       <table>
