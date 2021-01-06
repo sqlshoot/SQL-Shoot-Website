@@ -18,12 +18,6 @@ export default function Layout({children}) {
             <a className="navbar-item" href="/">
               <img src="/sqlshoot-rectangle.png" width="112" height="28" />
             </a>
-
-            <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
           </div>
 
           <div id="navbarBasicExample" className="navbar-menu">
@@ -42,10 +36,10 @@ export default function Layout({children}) {
                 </a>
 
                 <div className="navbar-dropdown">
-                  <a className="navbar-item" href="about">
+                  <a className="navbar-item" href="/documentation/contributing">
                     About
                   </a>
-                  <a className="navbar-item" href="contact">
+                  <a className="navbar-item" href="/documentation/troubleshooting">
                     Contact
                   </a>
                 </div>
@@ -65,7 +59,7 @@ export default function Layout({children}) {
       <footer className="footer">
         <div className="content has-text-centered">
           <p>
-            Footer
+            Copyright © SQL Shoot 2021. All rights reserved.
           </p>
         </div>
       </footer>

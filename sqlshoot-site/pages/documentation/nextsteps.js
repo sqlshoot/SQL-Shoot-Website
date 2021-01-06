@@ -20,7 +20,14 @@ export default function NextSteps() {
         Using the instructions in <a href="/documentation/quickstart">Quick Start</a>, perhaps you can try deploying a few scripts to your development environment.
         <br />
         <br />
-        Finally, you can check out the <a href="/documentation/contributing">Contributing page</a>. SQL Shoot is open source, and is always on the look out for contributors.
+        You could try using the NuGet package to integrate SQL Shoot into your .NET applications. See <a href="/documentation/nuget">NuGet</a>.
+        <br />
+        <br />
+        For integrating SQL Shoot into CI/CD processes, the Docker image is a good place to start. See <a href="/documentation/docker">Docker</a>.
+        <br />
+        <br />
+        Feature request? Bug report? See the <a href="/documentation/contributing">Troubleshooting</a> and <a href="/documentation/contributing">Contributing</a> pages.
+        SQL Shoot is open source, and is always on the look out for contributors.
       </div>
     </div>
     </section>

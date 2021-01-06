@@ -12,6 +12,9 @@ export default function Home() {
           <h3 className="title is-3">
             Change control for the database
           </h3>
+          <h3 className="subtitle is-3">
+            Version 0.1.0
+          </h3>
           <br />
           </div>
           <div className="container">
@@ -111,7 +114,43 @@ export default function Home() {
     </div>
     <hr />
     <section>
-    <h3 className="title is-3 text-align-center">Platforms</h3>
+    <h3 className="title is-3 text-align-center">Supported Databases</h3>
+      <div className="tile is-ancestor">
+        <div className="tile is-parent">
+          <div className="tile is-child box has-text-centered">
+              <figure className="image is-128x128 client-img">
+                <img src="sqlserver.png" />
+              </figure>
+              <a href="/documentation/sqlserver">
+                <button class="button is-link">SQL Server</button>
+              </a>
+          </div>
+        </div>
+
+        <div className="tile is-parent">
+          <div className="tile is-child box has-text-centered">
+              <figure className="image is-128x128 client-img">
+                <img src="sqlite.png" />
+              </figure>
+              <a href="/documentation/sqlite">
+                <button class="button is-link">SQLite</button>
+              </a>
+          </div>
+        </div>
+
+        <div className="tile is-parent">
+          <div className="tile is-child box has-text-centered">
+              <h4 className="title is-4">More coming soon...</h4>
+              <a href="/documentation/contributing">
+                <button class="button is-link">Contributing</button>
+              </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section>
+    <h3 className="title is-3 text-align-center">Get SQL Shoot</h3>
       <div className="tile is-ancestor">
         <div className="tile is-parent">
         <div className="tile is-child box has-text-centered">
@@ -122,7 +161,7 @@ export default function Home() {
               </figure>
 
               <a href="/documentation/windows">
-                <button class="button is-link">Go to Windows</button>
+                <button class="button is-link">Install for Windows</button>
               </a>
           </div>
         </div>
@@ -136,7 +175,7 @@ export default function Home() {
               </figure>
 
               <a href="/documentation/linux">
-                <button class="button is-link">Go to Linux</button>
+                <button class="button is-link">Install for Linux</button>
               </a>
           </div>
         </div>
@@ -150,7 +189,7 @@ export default function Home() {
               </figure>
 
               <a href="/documentation/docker">
-                <button class="button is-link">Go to Docker</button>
+                <button class="button is-link">Pull the Docker image</button>
               </a>
           </div>
         </div>
@@ -164,7 +203,7 @@ export default function Home() {
               </figure>
 
               <a href="/documentation/github">
-                <button class="button is-link">Source code in GitHub</button>
+                <button class="button is-link">See source code in GitHub</button>
               </a>
           </div>
         </div>
