@@ -39,6 +39,16 @@ export default function AllOptions() {
             exampleValue={"true"}
             commandLineExample={"--debug=true"}
         />
+        <ConfigurationOption
+            name={"Config Filepath"}
+            description={
+            <p>
+                Path to a configuration file to use. Overrides the default search for <code>config.yaml</code> in the working directory.
+            </p>
+            }
+            exampleValue={"C:\\config\\myConfig.yaml"}
+            commandLineExample={"--configFilepath=C:\\config\\myConfig.yaml"}
+        />
       </div>
     </div>
     </section>

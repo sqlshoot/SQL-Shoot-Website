@@ -20,7 +20,7 @@ export default function SQLite() {
         <tbody>
         <tr>
             <td>Database Engine Value</td>
-            <td><a href="/documentation/alloptions#Database-Engine">SQLite</a></td>
+            <td><a href="/documentation/alloptions#Database-Engine"><code>SQLite</code></a></td>
           </tr>
           <tr>
             <td>Example connection string</td>

@@ -22,7 +22,7 @@ export default function SqlServer() {
         <tbody>
           <tr>
             <td>Database Engine Value</td>
-            <td><a href="/documentation/alloptions#Database-Engine">SQL Server</a></td>
+            <td><a href="/documentation/alloptions#Database-Engine"><code>SQL Server</code></a></td>
           </tr>
           <tr>
             <td>Example connection string</td>
