@@ -31,7 +31,8 @@ const configurationListMenuItems = [
 
 const databaseSupportListMenuItems = [
     "SQL Server",
-    "SQLite"
+    "SQLite",
+    "PostgreSQL"
 ];
 
 const communityAndTroubleshootingListMenuItems = [

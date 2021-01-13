@@ -6,7 +6,7 @@ export default function Layout({children}) {
       <Head>
         <title>SQL Shoot</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
         <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
       </Head>
@@ -28,6 +28,10 @@ export default function Layout({children}) {
 
               <a className="navbar-item" href="/documentation/introduction">
                 Documentation
+              </a>
+
+              <a className="navbar-item" href="/documentation/pro">
+                Pro Edition
               </a>
 
               <div className="navbar-item has-dropdown is-hoverable">

@@ -18,20 +18,20 @@ export default function Home() {
           <br />
           </div>
           <div className="container">
-              <div className="columns">
-              <div className="column" />
-              <div className="column">
-                <div className="buttons">
-                <a className="button is-large is-fullwidth is-primary" href="/documentation/introduction">
-                    Get Started
-                </a>
-                <a className="button is-large is-fullwidth" href="/documentation/introduction">
-                    Documentation
-                </a>
-                </div>
+            <div className="columns">
+            <div className="column" />
+            <div className="column">
+              <div className="buttons">
+              <a className="button is-large is-fullwidth is-primary" href="/documentation/introduction">
+                  Get Started
+              </a>
+              <a className="button is-large is-fullwidth" href="/documentation/introduction">
+                  Documentation
+              </a>
               </div>
-              <div className="column" />
-          </div>
+            </div>
+            <div className="column" />
+            </div>
         
         </div>
       </div>
@@ -63,6 +63,7 @@ export default function Home() {
     <hr />
     <section>
     <h3 className="title is-3 text-align-center">Features</h3>
+    <h4 className="subtitle is-4 text-align-center">Get your database changes under control</h4>
     <div className="box has-text-centered">
       <div className="columns">
         <div className="column">
@@ -122,7 +123,7 @@ export default function Home() {
                 <img src="sqlserver.png" />
               </figure>
               <a href="/documentation/sqlserver">
-                <button class="button is-link">SQL Server</button>
+                <button className="button is-link">SQL Server</button>
               </a>
           </div>
         </div>
@@ -133,7 +134,7 @@ export default function Home() {
                 <img src="sqlite.png" />
               </figure>
               <a href="/documentation/sqlite">
-                <button class="button is-link">SQLite</button>
+                <button className="button is-link">SQLite</button>
               </a>
           </div>
         </div>
@@ -142,13 +143,59 @@ export default function Home() {
           <div className="tile is-child box has-text-centered">
               <h4 className="title is-4">More coming soon...</h4>
               <a href="/documentation/contributing">
-                <button class="button is-link">Contributing</button>
+                <button className="button is-link">Contributing</button>
               </a>
           </div>
         </div>
       </div>
     </section>
+
     <hr />
+    <section>
+    <h3 className="title is-3 text-align-center">Pro Edition</h3>
+    <h4 className="subtitle is-4 text-align-center">Extra features and official support for high performing organizations</h4>
+    <div className="box has-text-centered">
+      <div className="columns">
+        <div className="column">
+          <strong>Pre & Post Deployment Scripts</strong>
+          <br />
+          <div className="lnr lnr-small lnr-layers"/>
+          <br />
+          Run scripts before and after every deployment
+        </div>
+        <div className="column">
+          <strong>Always Run Scripts</strong>
+          <br />
+          <div className="lnr lnr-small lnr-arrow-right"/>
+          <br />
+          Scripts which run even if already applied
+        </div>
+        <div className="column">
+          <strong>Script Pre-Conditions</strong>
+          <br />
+          <div className="lnr lnr-small lnr-checkmark-circle"/>
+          <br />
+          Specify conditions that must be met before a script can be run
+        </div>
+        <div className="column">
+          <strong>Official Support</strong>
+          <br />
+          <div className="lnr lnr-small lnr-phone-handset"/>
+          <br />
+          Get support from the SQL Shoot developers
+        </div>
+      </div>
+      <div className="column">
+        <div className="buttons">
+        <a className="button is-medium is-primary" style={{ margin: "auto" }} href="/pro">
+            Learn more about Pro Edition
+        </a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    </section>
+
     <section>
     <h3 className="title is-3 text-align-center">Get SQL Shoot</h3>
       <div className="tile is-ancestor">
@@ -161,7 +208,7 @@ export default function Home() {
               </figure>
 
               <a href="/documentation/windows">
-                <button class="button is-link">Install for Windows</button>
+                <button className="button is-link">Install for Windows</button>
               </a>
           </div>
         </div>
@@ -175,7 +222,7 @@ export default function Home() {
               </figure>
 
               <a href="/documentation/linux">
-                <button class="button is-link">Install for Linux</button>
+                <button className="button is-link">Install for Linux</button>
               </a>
           </div>
         </div>
@@ -189,13 +236,27 @@ export default function Home() {
               </figure>
 
               <a href="/documentation/docker">
-                <button class="button is-link">Pull the Docker image</button>
+                <button className="button is-link">Pull the Docker image</button>
               </a>
           </div>
         </div>
 
         <div className="tile is-parent">
-        <div className="tile is-child box has-text-centered">
+          <div className="tile is-child box has-text-centered">
+              <h4 className="title is-4">NuGet</h4>
+
+              <figure className="image is-128x128 client-img">
+                <img src="nuget.png" />
+              </figure>
+
+              <a href="/documentation/nuget">
+                <button className="button is-link">Install NuGet package</button>
+              </a>
+          </div>
+        </div>
+
+        <div className="tile is-parent">
+          <div className="tile is-child box has-text-centered">
               <h4 className="title is-4">GitHub</h4>
 
               <figure className="image is-128x128 client-img">
@@ -203,7 +264,7 @@ export default function Home() {
               </figure>
 
               <a href="/documentation/github">
-                <button class="button is-link">See source code in GitHub</button>
+                <button className="button is-link">See source code in GitHub</button>
               </a>
           </div>
         </div>

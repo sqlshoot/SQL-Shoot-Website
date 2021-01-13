@@ -56,7 +56,7 @@ export default function Quickstart() {
         <br />
         <br />
         <a href="scripts">
-          <button class="button is-link">Next: Scripts</button>
+          <button className="button is-link">Next: Scripts</button>
         </a>
       </div>
     </div>

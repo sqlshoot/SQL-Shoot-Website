@@ -1,12 +1,12 @@
 export default function ConfigurationOption({ name, description, exampleValue, commandLineExample }) {
   return (
-  <div class="card" style={ { margin: "10px" } }>
-    <div class="card-content">
+  <div className="card" style={ { margin: "10px" } }>
+    <div className="card-content">
     <h4 className="title is-4">
       <a id={name.replace(/\s/g, '-')}></a>
       {name}
     </h4>
-      <div class="content">
+      <div className="content">
       {description}
       Example value: <code>{exampleValue}</code>
       <br />

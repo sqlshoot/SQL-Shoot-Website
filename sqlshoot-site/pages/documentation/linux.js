@@ -15,7 +15,7 @@ export default function Linux() {
         <br />
         <br />
         <a href="#">
-          <button class="button is-link">Download SQL Shoot Linux command line</button>
+          <button className="button is-link">Download SQL Shoot Linux command line</button>
         </a>
         <br />
         <br />

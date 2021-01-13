@@ -24,7 +24,7 @@ export default function ChangeHistory() {
         <br />
         <br />
         <a href="nextsteps">
-          <button class="button is-link">Next: Next Steps</button>
+          <button className="button is-link">Next: Next Steps</button>
         </a>
       </div>
     </div>

@@ -15,7 +15,7 @@ export default function Docker() {
         <br />
         <br />
         <a href="#">
-          <button class="button is-link">Go to SQL Shoot DockerHub</button>
+          <button className="button is-link">Go to SQL Shoot DockerHub</button>
         </a>
         <h2>Docker Quick Start</h2>
         This is a brief guide to getting started with SQL Shoot in Docker.

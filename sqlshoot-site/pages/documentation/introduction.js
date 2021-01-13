@@ -11,7 +11,7 @@ export default function Introduction() {
       </div>
       <div className="column content">
       <h1>Introduction</h1>
-        SQL Shoot is a change control tool for the database. With it you can:
+        SQL Shoot is a free & open source change control tool for the database. With it you can:
         <ul>
           <li>Write changes as SQL script files</li>
           <li>Run scripts in an orderly manner</li>
@@ -33,7 +33,7 @@ export default function Introduction() {
         <br />
         <br />
         <a href="quickstart">
-          <button class="button is-link">Next: Quick Start</button>
+          <button className="button is-link">Next: Quick Start</button>
         </a>
       </div>
     </div>

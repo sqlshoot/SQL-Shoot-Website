@@ -73,7 +73,7 @@ export default function Scripts() {
         </code>
         </pre>
         <a href="ordering&dependencies">
-          <button class="button is-link">Next: Ordering & Dependencies</button>
+          <button className="button is-link">Next: Ordering & Dependencies</button>
         </a>
       </div>
     </div>

@@ -36,6 +36,7 @@ export default function AllOptions() {
                 <ul>
                   <li><code>SQLite</code></li>
                   <li><code>SQL Server</code></li>
+                  <li><code>PostgreSQL</code></li>
                 </ul>
             </p>
             }

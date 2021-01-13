@@ -15,7 +15,7 @@ export default function NuGet() {
         <br />
         <br />
         <a href="#">
-          <button class="button is-link">Go to NuGet.org</button>
+          <button className="button is-link">Go to NuGet.org</button>
         </a>
         <br />
       </div>

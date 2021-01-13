@@ -15,7 +15,7 @@ export default function Windows() {
         <br />
         <br />
         <a href="#">
-          <button class="button is-link">Download SQL Shoot Windows command line</button>
+          <button className="button is-link">Download SQL Shoot Windows command line</button>
         </a>
         <br />
         <br />

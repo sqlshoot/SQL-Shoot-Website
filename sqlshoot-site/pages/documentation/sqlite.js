@@ -13,7 +13,7 @@ export default function SQLite() {
       <h1>SQLite</h1>
       <h4>Supported versions</h4>
       <ul>
-        <li>3.X versions from 3.9.2</li>
+        <li>3.X versions from 3.9.0</li>
       </ul>
       <h4>Database connections</h4>
       <table>

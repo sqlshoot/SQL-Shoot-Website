@@ -110,7 +110,7 @@ export default function OrderingAndDependencies() {
         <br />
         <br />
         <a href="changehistory">
-          <button class="button is-link">Next: Change History</button>
+          <button className="button is-link">Next: Change History</button>
         </a>
       </div>
     </div>

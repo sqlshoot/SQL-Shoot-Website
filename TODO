@@ -1,0 +1,16 @@
+Downgrade SQL Data client to fix Linux bug
+Google analytics
+Short.cm
+Privacy notice in website and product for links
+EULA, license, readme in product
+API usage on NuGet page
+Document public API properly
+Upload to DockerHub
+Release CLI to AWS
+Build .tar.gz for Linux
+Upload to NuGet.org
+Copy schema nuke clean code from Evolve
+Add Postgres (Tests, docker container)
+https://www.appveyor.com/ CI public
+Contributing database support doc
+favicon
