@@ -104,7 +104,7 @@ export default function Home() {
         <div className="column">
         <strong>Cross database</strong>   
           <div className="lnr lnr-small lnr-database"/>
-          The same tool works with SQL Server, and SQLite, with more coming soon
+          The same tool works with SQL Server, PostgreSQL, and SQLite, with more coming soon
         </div>
         <div className="column">
         <strong>Open source</strong> 
@@ -124,6 +124,17 @@ export default function Home() {
               </figure>
               <a href="/documentation/sqlserver">
                 <button className="button is-link">SQL Server</button>
+              </a>
+          </div>
+        </div>
+
+        <div className="tile is-parent">
+          <div className="tile is-child box has-text-centered">
+              <figure className="image is-128x128 client-img">
+                <img src="postgres.png" />
+              </figure>
+              <a href="/documentation/postgresql">
+                <button className="button is-link">PostgreSQL</button>
               </a>
           </div>
         </div>

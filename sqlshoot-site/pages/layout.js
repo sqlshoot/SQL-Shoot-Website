@@ -30,7 +30,7 @@ export default function Layout({children}) {
                 Documentation
               </a>
 
-              <a className="navbar-item" href="/documentation/pro">
+              <a className="navbar-item" href="/pro">
                 Pro Edition
               </a>
 
@@ -64,6 +64,8 @@ export default function Layout({children}) {
         <div className="content has-text-centered">
           <p>
             Copyright © SQL Shoot 2021. All rights reserved.
+            <br />
+            This site collects anonymous usage data via Google Analytics.
           </p>
         </div>
       </footer>
