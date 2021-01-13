@@ -14,8 +14,7 @@ export default function Revert() {
         The Revert command executes revert scripts in the order described in Ordering & Dependencies.
         <br />
         Revert will execute the relevant revert script for the latest applied Script (not On Change Scripts or other Revert Scripts). It only reverts one script at a time. 
-        Command Line Example:
-        <br />
+        <h3>Command Line Example</h3>
         <pre>
           <code>
           > sqlshoot overview<br />

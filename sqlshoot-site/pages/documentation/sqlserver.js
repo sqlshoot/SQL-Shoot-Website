@@ -38,7 +38,7 @@ export default function SqlServer() {
           </tr>
           <tr>
             <td>Driver Version</td>
-            <td>2.1.1</td>
+            <td>2.0.1</td>
           </tr>
         </tbody>
       </table>

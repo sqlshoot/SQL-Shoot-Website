@@ -11,7 +11,7 @@ export default function Nuke() {
       </div>
       <div className="column content">
         <h1>Nuke</h1>
-        The Nuke command deletes all objects under the schema specified in `primarySchema`. This is a destructive process and should only be used when you know it's safe to do so.
+        The Nuke command deletes all objects under the schema specified in <a href="/documentation/alloptions#Primary-Schema">Primary Schema</a>. This is a destructive process and should only be used when you know it's safe to do so.
         <h3>Command Line Example</h3>
         <pre>
           <code>
