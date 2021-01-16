@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Layout({children}) {
   return (
-    <div>
+    <>
       <Head>
         <title>SQL Shoot</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -61,7 +61,7 @@ export default function Layout({children}) {
           {children}
           </div>
         </section>
-      </body>
+
 
       <footer className="footer">
         <div className="content has-text-centered">
@@ -72,6 +72,7 @@ export default function Layout({children}) {
           </p>
         </div>
       </footer>
-    </div>
+      </body>
+      </>
   )
 }
