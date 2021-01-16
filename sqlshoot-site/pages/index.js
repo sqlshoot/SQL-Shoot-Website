@@ -164,7 +164,7 @@ export default function Home() {
     <hr />
     <section>
     <h3 className="title is-3 text-align-center">Pro Edition</h3>
-    <h4 className="subtitle is-4 text-align-center">Extra features and official support for high performing organizations</h4>
+    <h4 className="subtitle is-4 text-align-center">Extra features and official support for high performing teams</h4>
     <div className="box has-text-centered">
       <div className="columns">
         <div className="column">

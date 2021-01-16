@@ -7,7 +7,7 @@ export default function Pro() {
     <div className="columns">
       <div className="column content">
       <h1 className="subtitle text-align-center">SQL Shoot Pro Edition</h1>
-      <h4 className="subtitle is-4 text-align-center">Extra features and official support for high performing organizations</h4>
+      <h4 className="subtitle is-4 text-align-center">Extra features and official support for high performing teams</h4>
       <hr />
       <div className="box has-text-centered">
         <div className="columns">
