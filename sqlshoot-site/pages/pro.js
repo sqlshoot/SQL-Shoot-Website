@@ -56,7 +56,7 @@ export default function Pro() {
         <div className="column" />
         <div className="column">
           <div className="buttons">
-          <a className="button is-large is-fullwidth is-primary" href="/documentation/introduction">
+          <a className="button is-large is-fullwidth is-primary" href="https://colossal-builder-2480.ck.page/0425399972">
               Register interest
           </a>
           <a className="button is-large is-fullwidth" href="/documentation/introduction">

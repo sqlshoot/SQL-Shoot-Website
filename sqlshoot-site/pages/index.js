@@ -28,6 +28,9 @@ export default function Home() {
               <a className="button is-large is-fullwidth" href="/documentation/introduction">
                   Documentation
               </a>
+              <a className="button is-fullwidth" href="https://colossal-builder-2480.ck.page/0425399972">
+                Newsletter sign up
+              </a>
               </div>
             </div>
             <div className="column" />
