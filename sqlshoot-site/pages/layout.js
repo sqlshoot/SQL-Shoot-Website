@@ -33,10 +33,6 @@ export default function Layout({children}) {
                 Documentation
               </a>
 
-              <a className="navbar-item" href="/pro">
-                Pro Edition
-              </a>
-
               <div className="navbar-item has-dropdown is-hoverable">
                 <a className="navbar-link">
                   More

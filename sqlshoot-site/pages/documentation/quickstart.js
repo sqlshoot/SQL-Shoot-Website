@@ -15,16 +15,20 @@ export default function Quickstart() {
         <br />
         <br />
         The SQL Shoot installation will provide everything you need to follow this guide. You don't need to install any extra packages (like database drivers, runtimes, etc).
-        <br />
-        <br />
+        <h2>Instructions</h2>
         Install the SQL Shoot command line for your operating system. Follow the instructions on the pages here: <a href="/documentation/windows">Windows</a> or <a href="/documentation/windows">Linux</a>.
         <br />
         <br />
         Open a command line terminal (PowerShell, Bash, etc) in the SQL Shoot installation directory.
         <br />
         <br />
-        Run <code>sqlshoot overview</code>. This will have the side effect of creating a SQLite file database in the installation directory.
-        You should see a table explaining the state of the database. 
+        In the terminal, run:
+
+        <pre>
+        <code>C:\sqlshoot> sqlshoot overview</code>
+        </pre>
+        
+        You should see a table explaining the state of the database. Because we're using SQLite, this will also have the side effect of creating a SQLite file database in the installation directory.
         <br/>
         <br/>
         In your SQL Shoot installation directory, there should be a <code>scripts</code> folder.
@@ -42,17 +46,24 @@ export default function Quickstart() {
         );
         </code>
         </pre>
+        Back in the terminal, run:
+        <pre>
+        <code>C:\sqlshoot> sqlshoot overview</code>
+        </pre>   
+        You can now see a table showing that <code>createTable</code> is now pending.
         <br />
-        Back in the terminal, run <code>sqlshoot overview</code> again to see the pending change.
         <br />
-        <br />
-        Run <code>sqlshoot run</code> to run the change.
+        Now to apply the change. In the terminal, run:     
+        <pre>
+        <code>C:\sqlshoot> sqlshoot run</code>
+        </pre>
+        This will execute the script against the database.
         <br />
         <br />
         Congratulations! You have deployed your first database using SQL Shoot.
         <br/>
         <br/>
-        The next pages provide more information about basic usage. As you read through, you can use this sample as a sandbox to experiment with each feature.
+        The following pages provide more information about basic usage. As you read through, you can use this sample as a sandbox to experiment with each feature.
         <br />
         <br />
         <a href="scripts">

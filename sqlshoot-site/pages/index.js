@@ -165,51 +165,7 @@ export default function Home() {
     </section>
 
     <hr />
-    <section>
-    <h3 className="title is-3 text-align-center">Pro Edition</h3>
-    <h4 className="subtitle is-4 text-align-center">Extra features and official support for high performing teams</h4>
-    <div className="box has-text-centered">
-      <div className="columns">
-        <div className="column">
-          <strong>Pre & Post Deployment Scripts</strong>
-          <br />
-          <div className="lnr lnr-small lnr-layers"/>
-          <br />
-          Run scripts before and after every deployment
-        </div>
-        <div className="column">
-          <strong>Always Run Scripts</strong>
-          <br />
-          <div className="lnr lnr-small lnr-arrow-right"/>
-          <br />
-          Scripts which run even if already applied
-        </div>
-        <div className="column">
-          <strong>Script Pre-Conditions</strong>
-          <br />
-          <div className="lnr lnr-small lnr-checkmark-circle"/>
-          <br />
-          Specify conditions that must be met before a script can be run
-        </div>
-        <div className="column">
-          <strong>Official Support</strong>
-          <br />
-          <div className="lnr lnr-small lnr-phone-handset"/>
-          <br />
-          Get support from the SQL Shoot developers
-        </div>
-      </div>
-      <div className="column">
-        <div className="buttons">
-        <a className="button is-medium is-primary" style={{ margin: "auto" }} href="/pro">
-            Learn more about Pro Edition
-        </a>
-        </div>
-      </div>
-    </div>
-    <hr />
-    </section>
-
+    
     <section>
     <h3 className="title is-3 text-align-center">Get SQL Shoot</h3>
       <div className="tile is-ancestor">
