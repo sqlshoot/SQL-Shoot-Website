@@ -51,7 +51,6 @@ export default function Layout({children}) {
           </div>
           </div>
         </nav>
-        
         <section className="section">
           <div className="container">
           {children}

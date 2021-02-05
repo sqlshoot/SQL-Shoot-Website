@@ -14,13 +14,13 @@ export default function Files() {
         Configuration files are in the YAML format. SQL Shoot expects the file to be called <code>config.yaml</code>.
         <br />
         <br />
-        <code>config.yaml</code> must be in the working directory of the command line call in order to be picked up. The example project you can download in Quick Start shows how that works.
+        <code>config.yaml</code> must be in the working directory of the command line call in order to be picked up. The example project you can download in <a href="/documentation/quickstart">Quick Start</a> shows how that works.
         <br />
         <br />
         Command line arguments override options specified in configuration files.
         <br/>
         <br/>
-        Details about each configuration option can be found in All Options.
+        Details about each configuration option can be found in <a href="/documentation/alloptions">All Options</a>.
         <h2>Example <cdde>config.yaml</cdde> file</h2>
         <pre>
           <code>

@@ -16,7 +16,7 @@ export default function Quickstart() {
         <br />
         The SQL Shoot installation will provide everything you need to follow this guide. You don't need to install any extra packages (like database drivers, runtimes, etc).
         <h2>Instructions</h2>
-        Install the SQL Shoot command line for your operating system. Follow the instructions on the pages here: <a href="/documentation/windows">Windows</a> or <a href="/documentation/windows">Linux</a>.
+        Install the SQL Shoot command line for your operating system. Follow the instructions on the pages here: <a href="/documentation/windows">Windows</a> or <a href="/documentation/linux">Linux</a>.
         <br />
         <br />
         Open a command line terminal (PowerShell, Bash, etc) in the SQL Shoot installation directory.
@@ -29,6 +29,9 @@ export default function Quickstart() {
         </pre>
         
         You should see a table explaining the state of the database. Because we're using SQLite, this will also have the side effect of creating a SQLite file database in the installation directory.
+        <br />
+        <br />
+        You'll notice there is also a file called <code>config.yaml</code>. This file contains the configuration for SQL Shoot. You don't need to change it now, but it's recommended to have a look for reference.
         <br/>
         <br/>
         In your SQL Shoot installation directory, there should be a <code>scripts</code> folder.

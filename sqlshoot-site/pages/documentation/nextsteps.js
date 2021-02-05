@@ -14,7 +14,7 @@ export default function NextSteps() {
         That's it for the introduction! Now to begin using SQL Shoot in your development process.
         <br/>
         <br/>
-        You should read the documentation for the various commands, and familiarize yourself with the <a href="/documentation/alloptions">configuration options</a>.
+        You should read the documentation for the various commands, and familiarize yourself with <a href="/documentation/general">how to configure SQL Shoot</a>.
         <br />
         <br />
         Using the instructions in <a href="/documentation/quickstart">Quick Start</a>, perhaps you can try deploying a few scripts to your development environment.
@@ -26,8 +26,8 @@ export default function NextSteps() {
         For integrating SQL Shoot into CI/CD processes, the Docker image is a good place to start. See <a href="/documentation/docker">Docker</a>.
         <br />
         <br />
-        Feature request? Bug report? See the <a href="/documentation/contributing">Troubleshooting</a> and <a href="/documentation/contributing">Contributing</a> pages.
-        SQL Shoot is open source, and is always on the look out for contributors.
+        Feature request? Bug report? See the <a href="/documentation/troubleshooting">Troubleshooting</a> and <a href="/documentation/contributing">Contributing</a> pages.
+        SQL Shoot is <a href="/documentation/github">open source, available on GitHub</a>, and is always on the look out for contributors.
       </div>
     </div>
     </section>

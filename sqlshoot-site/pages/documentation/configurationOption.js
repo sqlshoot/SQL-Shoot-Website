@@ -1,6 +1,6 @@
 const replace = str => str === undefined ? str : str.replace(/\s/g, '-');
 
-export default function ConfigurationOption({ name, description, exampleValue, commandLineExample }) {
+export default function ConfigurationOption({ name, description, exampleValue, commandLineExample, yamlExample }) {
   return (
   <div className="card" style={ { margin: "10px" } }>
     <div className="card-content">
@@ -18,7 +18,11 @@ export default function ConfigurationOption({ name, description, exampleValue, c
         <code>sqlshoot run {commandLineExample}</code>
       </pre>
       </div>
-    </div>
+      <strong>YAML example</strong>
+      <pre>
+        <code>{yamlExample}</code>
+      </pre>
+      </div>
   </div>
   );
 }

@@ -38,7 +38,8 @@ const databaseSupportListMenuItems = [
 const communityAndTroubleshootingListMenuItems = [
     "Troubleshooting",
     "Contributing",
-    "Release Notes"
+    "Release Notes",
+    "GitHub"
 ];
 
 

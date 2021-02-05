@@ -17,7 +17,7 @@ export default function General() {
         Command line arguments take precedence over those specified in configuration files.
         <br />
         <br />
-        See the relevant pages for details.
+        See the relevant pages for details; <a href="/documentation/files">Files</a> and <a href="/documentation/commandlinearguments">Command Line Arguments</a>.
       </div>
     </div>
     </section>

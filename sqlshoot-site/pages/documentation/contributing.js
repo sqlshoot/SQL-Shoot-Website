@@ -17,7 +17,7 @@ export default function Contributing() {
       If you would like to contribute, read through the readme on the GitHub repository, and create a Pull Request with your code.
       <br />
       <br />
-      You'll need to sign the SQL Shoot Contributor License Agreement for your code to be merged.
+      You'll need to sign the SQL Shoot Contributor License Agreement for your code to be merged. <a href="/documentation/github">Go to SQL Shoot GitHub.</a>
       <h2>New database support</h2>
       We especially welcome contributions in the way of new database support.
       <br />

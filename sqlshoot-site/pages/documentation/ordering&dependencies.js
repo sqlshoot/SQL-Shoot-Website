@@ -15,7 +15,7 @@ export default function OrderingAndDependencies() {
         <br />
         <h2 className="title">Where does SQL Shoot look for scripts?</h2>
         SQL Shoot looks for scripts in filesystem locations. These locations are defined by the <a href="/documentation/alloptions#Script-Paths">Script Paths</a> configuration option.
-        <a href="/documentation/alloptions#Script-Paths">Script Paths</a> can be either a directory, or a direct file path. See the <a href="/documentation/alloptions#Script-Paths">Script Paths</a> page for more details.
+        <a href="/documentation/alloptions#Script-Paths"> Script Paths</a> can be either a directory, or a direct file path. See <a href="/documentation/alloptions#Script-Paths">Script Paths</a> for more details.
         <br />
         <br />
         You can preview the deployment order with the <a href="/documentation/overview">Overview</a> command.
@@ -62,7 +62,7 @@ export default function OrderingAndDependencies() {
         <h2 className="title">Dependencies between scripts</h2>
         When scripts are dependent on each other, you need to arrange your files in such a way to ensure scripts are deployed in the correct order.
         <br />
-        SQL Shoot can be configured in a number of ways to ensure strict script ordering. The simplest is to append a number before each script:
+        SQL Shoot can be configured in a number of ways to ensure strict script ordering. The simplest is to prepend a number before each script's filename:
         <ul>
             <li>001_createTable.sql</li>
             <li>002_createView.onChange.sql</li>

@@ -25,6 +25,7 @@ export default function AllOptions() {
             }
             exampleValue={"Data Source=.\SqlShootDb.db;Version=3;"}
             commandLineExample={"--connectionString=Data Source=.\SqlShootDb.db;Version=3;"}
+            yamlExample={"connectionString: Data Source=.\SqlShootDb.db;Version=3;"}
         />
         <ConfigurationOption
             name={"Database Engine"}
@@ -42,6 +43,7 @@ export default function AllOptions() {
             }
             exampleValue={"SQLite"}
             commandLineExample={"--databaseEngine=SQLite"}
+            yamlExample={"databaseEngine: SQLite"}
         />
         <ConfigurationOption
             name={"Username"}
@@ -51,7 +53,8 @@ export default function AllOptions() {
             </p>
             }
             exampleValue={"myUser"}
-            commandLineExample={"--username=myUser"}      
+            commandLineExample={"--username=myUser"}
+            yamlExample={"username: myUser"}
         />
         <ConfigurationOption
             name={"Password"}
@@ -61,7 +64,8 @@ export default function AllOptions() {
             </p>
             }
             exampleValue={"myPassword"}
-            commandLineExample={"--password=myPassword"}  
+            commandLineExample={"--password=myPassword"}
+            yamlExample={"password: myPassword"}
         />
         <ConfigurationOption
             name={"Database Name"}
@@ -72,6 +76,7 @@ export default function AllOptions() {
             }
             exampleValue={"myDatabase"}
             commandLineExample={"--databaseName=myDatabase"}
+            yamlExample={"databaseName: myDatabase"}
         />
         <ConfigurationOption
             name={"Primary Schema"}
@@ -84,6 +89,7 @@ export default function AllOptions() {
             }
             exampleValue={"dbo"}
             commandLineExample={"--primarySchema=dbo"}
+            yamlExample={"primarySchema: dbo"}
         />
         <ConfigurationOption
             name={"Script Paths"}
@@ -93,7 +99,7 @@ export default function AllOptions() {
                 <br />
                 Script paths can be either a directory, or a direct filepath.
                 <br />
-                Directory script paths are suffixed with a <code>*</code>. Such paths will recursively search for scripts, ordering according to Ordering & Dependencies.
+                Directory script paths are suffixed with a <code>*</code>. Such paths will recursively search for scripts, ordering according to <a href="/documentation/ordering&dependencies">Ordering & Dependencies</a>.
                 <br />
                 Direct script paths point directly to a <code>.sql</code> file.
                 <br />
@@ -109,6 +115,13 @@ export default function AllOptions() {
             }
             exampleValue={"C:/release-1/* C:/release-2/createTable.sql release-3/* release-4/createView.sql"}
             commandLineExample={"--scriptPaths=C:/release-1/* C:/release-2/createTable.sql release-3/* release-4/createView.sql"}
+            yamlExample={
+`scriptPaths:
+  - C:/release-1/*
+  - C:/release-2/createTable.sql
+  - release-3/*
+  - release-4/createView.sql
+`}
         />
         <ConfigurationOption
             name={"Run Scripts In Transactions"}
@@ -125,6 +138,7 @@ export default function AllOptions() {
             }
             exampleValue={"true"}
             commandLineExample={"--runScriptsInTransactions=true"}
+            yamlExample={"runScriptsInTransactions: true"}
         />
         <ConfigurationOption
             name={"Fake"}
@@ -138,7 +152,8 @@ export default function AllOptions() {
             </p>
             }
             exampleValue={"true"}
-            commandLineExample={"--fake=true"}     
+            commandLineExample={"--fake=true"}
+            yamlExample={"fake: true"}
         />
       </div>
     </div>

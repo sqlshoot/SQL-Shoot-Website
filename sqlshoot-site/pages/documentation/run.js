@@ -11,7 +11,7 @@ export default function Run() {
       </div>
       <div className="column content">
         <h1>Run</h1>
-        The Run command executes scripts against your database, in the order described in Ordering & Dependencies.
+        The Run command executes scripts against your database, in the order described in <a href="/documentation/ordering&dependencies">Ordering & Dependencies</a>.
         <h3>Command Line Example</h3>
         <pre>
           <code>
