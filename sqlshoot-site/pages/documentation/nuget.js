@@ -33,6 +33,10 @@ export default function NuGet() {
       <SidebarNav activeItemName="NuGet"/>
       </div>
       <div className="column content">
+      <div className="notification is-warning">
+        The SQL Shoot NuGet package is not yet released. Check back soon.
+      </div>
+
       <h1>NuGet</h1>
         You can get the SQL Shoot NuGet package here:
         <br />

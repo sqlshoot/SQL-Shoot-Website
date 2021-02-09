@@ -11,13 +11,14 @@ export default function ReleaseNotes() {
       </div>
       <div className="column content">
       <h1>Release Notes</h1>
-      You can see the release history, and download previous versions of SQL Shoot here.
+      You can see the release notes for all SQL Shoot versions here.
+      <br />
+      <br />
+      All versions of the command line client can be seen on the <a href="https://github.com/sqlshoot/SQL-Shoot/releases">GitHub Releases</a> page.
       <br/>
       <br/>
-      See <a href="#">DockerHub</a> and <a href="#">Nuget.org</a> to access versions of those clients.
-
+      See <a href="/documentation/docker">DockerHub</a> and <a href="/documentation/nuget">Nuget.org</a> to access versions of those clients.
       <h2>0.1.0</h2>
-      <a href="#">Download 0.1.0 Windows CLI</a> | <a href="#">Download 0.1.0 Linux CLI</a>
       <ul>
         <li>Initial Release</li>
       </ul>

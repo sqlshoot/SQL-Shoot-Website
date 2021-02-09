@@ -10,6 +10,9 @@ export default function Docker() {
       <SidebarNav activeItemName="Docker"/>
       </div>
       <div className="column content">
+      <div className="notification is-warning">
+        The SQL Shoot Docker image is not yet released. Check back soon.
+      </div>
       <h1>Docker</h1>
         You can pull the latest Docker version of SQL shoot here:
         <br />

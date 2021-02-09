@@ -14,7 +14,7 @@ export default function Windows() {
         You can download the latest Windows version of SQL shoot here:
         <br />
         <br />
-        <a href="#">
+        <a href="https://github.com/sqlshoot/SQL-Shoot/releases">
           <button className="button is-link">Download SQL Shoot Windows command line</button>
         </a>
         <br />

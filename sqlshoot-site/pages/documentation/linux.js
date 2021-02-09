@@ -14,7 +14,7 @@ export default function Linux() {
         You can download the latest Linux version of SQL shoot here:
         <br />
         <br />
-        <a href="#">
+        <a href="https://github.com/sqlshoot/SQL-Shoot/releases">
           <button className="button is-link">Download SQL Shoot Linux command line</button>
         </a>
         <br />
