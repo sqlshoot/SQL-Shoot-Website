@@ -14,12 +14,16 @@ export default function GitHub() {
             SQL Shoot is free and open source software, under the GNU LGPL V3 license. This website is also open source.
             <br />
             <br />
-            <a href="#">
+            <h3>SQL Shoot</h3>
+            SQL Shoot's source code is available on GitHub.
+            <a href="https://github.com/sqlshoot/SQL-Shoot">
             <button className="button is-link">Go to SQL Shoot GitHub</button>
             </a>
+            <h3>Website and Documentation</h3>
+            This website and documentation is also available on GitHub too.
             <br />
             <br />
-            <a href="#">
+            <a href="https://github.com/sqlshoot/SQL-Shoot-Website">
             <button className="button is-link">Go to website GitHub</button>
             </a>
         </div>
