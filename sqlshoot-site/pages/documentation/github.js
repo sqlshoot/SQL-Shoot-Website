@@ -16,6 +16,8 @@ export default function GitHub() {
             <br />
             <h3>SQL Shoot</h3>
             SQL Shoot's source code is available on GitHub.
+            <br />
+            <br />
             <a href="https://github.com/sqlshoot/SQL-Shoot">
             <button className="button is-link">Go to SQL Shoot GitHub</button>
             </a>
