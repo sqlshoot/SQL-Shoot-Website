@@ -33,15 +33,12 @@ export default function NuGet() {
       <SidebarNav activeItemName="NuGet"/>
       </div>
       <div className="column content">
-      <div className="notification is-warning">
-        The SQL Shoot NuGet package is not yet released. Check back soon.
-      </div>
 
       <h1>NuGet</h1>
         You can get the SQL Shoot NuGet package here:
         <br />
         <br />
-        <a href="#">
+        <a href="https://www.nuget.org/packages/SqlShoot/">
           <button className="button is-link">Go to NuGet.org</button>
         </a>
         <br />
@@ -69,7 +66,7 @@ export default function NuGet() {
       </pre>
 
       <h3>More examples</h3>
-      The SQL Shoot command line client is a good example of SQL Shoot API usage. You can inspect the code on GitHub.
+      The SQL Shoot command line client is a good example of SQL Shoot API usage. You can inspect the code on <a href="https://github.com/sqlshoot/SQL-Shoot/">GitHub</a>.
       </div>
     </div>
     </section>
