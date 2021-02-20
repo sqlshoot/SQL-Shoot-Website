@@ -18,7 +18,12 @@ export default function ReleaseNotes() {
       <br/>
       <br/>
       See <a href="/documentation/docker">DockerHub</a> and <a href="/documentation/nuget">Nuget.org</a> to access versions of those clients.
-      <h2>0.1.0</h2>
+      <h2>0.2.0</h2>
+      <ul>
+        <li>Update links for website</li>
+        <li>NuGet package launch</li>
+      </ul>
+      <h2>0.0.1</h2>
       <ul>
         <li>Initial Release</li>
       </ul>
