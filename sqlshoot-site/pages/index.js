@@ -13,7 +13,7 @@ export default function Home() {
             Change control for the database
           </h3>
           <h3 className="subtitle is-3">
-            Version 0.2.0
+            Version 0.2.1
           </h3>
           <br />
           </div>
